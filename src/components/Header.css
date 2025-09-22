@@ -1,0 +1,49 @@
+.site-header {
+  background: #79a607e8; /* green bar */
+  padding: 10px 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: black;
+  margin-right: 20px;
+}
+
+.search-box {
+  flex: 1; /* take remaining space */
+  margin: 0 20px; /* adds spacing between logo & button */
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* push button away from search bar */
+}
+
+.signout-btn {
+  background-color: #e63946; /* red */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.signout-btn:hover {
+  background-color: #d62828;
+}
